@@ -1,4 +1,6 @@
-# Best_wishes_to_teacher
+# Best Wishes to Prof. Yang 
+
+This repository provides a **Python** Implementation of **Happy Teachers’ Day to Prof. Yang (2021)**.
 
 ## Abstract 
 The paper Happy Teachers’ Day to Prof.Yang (2020) yields state-of-the-art results in wishes modeling. However, the existing work needs more necessary implementation and multimedia presentation. Here, we further propose Happy Teachers’ Day to Prof.Yang (2021) with more active ways. In particular, we complete the simulation of the 1919 athletes' happy daily life under the guidance of Prof.Yang and make a video to celebrate Teachers’ Day for Prof. Yang. 
