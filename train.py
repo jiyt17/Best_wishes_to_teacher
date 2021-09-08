@@ -2,6 +2,7 @@ from typing import List, Union
 import random
 import time
 from tqdm import tqdm
+from models.student import Student
 
 CURRENT_STUDENTS_FOR_CV = ["成文浩","龚渊","吉雅太","劳珊珊","罗美薇","杨思谛","周辉","陈怡凡","刘镛", 
         "石书玮","印飞","柏清岩","曹铭登","田宸瑜","王家豪","杨耿聪","余然"]
@@ -211,11 +212,11 @@ class Teacher:
                 print('\n')
                 time.sleep(2)
 
-    def random_choose_cv_students(self, num=3) -> List[Student]:
+    def random_choose_cv_students(self, num=3) -> List[str]:
         chosen_cv_students = random.sample(self.cv_students.keys(), num)
         return list(chosen_cv_students)
 
-    def random_choose_nlp_students(self, num=3) -> List[Student]:
+    def random_choose_nlp_students(self, num=3) -> List[str]:
         chosen_nlp_students = random.sample(self.nlp_students.keys(), num)
         return list(chosen_nlp_students)
 
