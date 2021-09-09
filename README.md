@@ -25,4 +25,4 @@ To run Happy Teachers’ Day to Prof. Yang (2021), please do the following:
 
 * Accept the best wishes from 1919 Atheletes.
 
-[Watch a demo](https://player.bilibili.com/player.html?aid=335380251&bvid=BV1cA411F7bn&cid=405006427&page=1)
+[Watch a demo](https://www.bilibili.com/video/BV1cA411F7bn?from=search&seid=3211693370272870199&spm_id_from=333.337.0.0)
