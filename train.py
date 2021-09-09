@@ -5,9 +5,9 @@ from tqdm import tqdm
 from models.student import Student
 
 CURRENT_STUDENTS_FOR_CV = ["成文浩","龚渊","吉雅太","劳珊珊","罗美薇","杨思谛","周辉","陈怡凡","刘镛", 
-        "石书玮","印飞","柏清岩","曹铭登","田宸瑜","王家豪","杨耿聪","余然"]
+        "石书玮","印飞","柏清岩","曹铭登","田宸瑜","王家豪","杨耿聪","余然","舒大伟"]
 CURRENT_STUDENTS_FOR_NLP = ["李思衡","梁添","刘轩舟","谭璐","杨程","余承泽","朱欣宇","白星宇","高婕",
-        "江旺杰","李嘉屹","孙嘉齐","吴太强","曹翔","陈茂炎","汪宇通","雷洁琼"]
+        "江旺杰","李嘉屹","孙嘉齐","吴太强","曹翔","陈茂炎","汪宇通","雷洁琼","王军杰","于顺顺"]
 SUPERVISOR = "Yang"
 
 def all_student_express_sincere_love() -> None:
@@ -33,15 +33,15 @@ def moring() -> None:
     print("Prof." + teacher.name + " is drving to the institute...")
     for i in tqdm(range(1000)):
         time.sleep(0.001)
-    print("It's 9:55. The students outside meeting room swarm into the 1809...")
+    print("It's 9:55. The students outside meeting room are swarming into the 1809...")
     for i in tqdm(range(300)):
         time.sleep(0.001)
 
 def afternoon() -> None:
-    print("Prof" + teacher.name + " have a rest...")
+    print("Prof" + teacher.name + " has a rest...")
     for i in tqdm(range(1000)):
         time.sleep(0.001)
-    print("It's 13:55. The students outside meeting room swarm into the 1809...")
+    print("It's 13:55. The students outside meeting room are swarming into the 1809...")
     for i in tqdm(range(300)):
         time.sleep(0.001)
 
@@ -88,7 +88,7 @@ class Teacher:
             for j in tqdm(range(100)):
                 time.sleep(0.001)
 
-            print("Prof." + self.name + " propose suggestions for improvement.")
+            print("Prof." + self.name + " proposes suggestions for improvement.")
             time.sleep(1)
             self.cv_students[name].increase_knowledge_by_reporting()
             print('\n')
