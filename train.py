@@ -30,7 +30,7 @@ def happy_teachers_day() -> None:
 def moring() -> None:
     print("Today is a nice Saturday. ")
     time.sleep(3)
-    print("Prof." + teacher.name + " is drving to the institute...")
+    print("Prof." + teacher.name + " is driving to the institute...")
     for i in tqdm(range(1000)):
         time.sleep(0.001)
     print("It's 9:55. The students outside meeting room are swarming into the 1809...")
@@ -38,7 +38,7 @@ def moring() -> None:
         time.sleep(0.001)
 
 def afternoon() -> None:
-    print("Prof" + teacher.name + " has a rest...")
+    print("Prof." + teacher.name + " is having a rest...")
     for i in tqdm(range(1000)):
         time.sleep(0.001)
     print("It's 13:55. The students outside meeting room are swarming into the 1809...")
@@ -117,7 +117,7 @@ class Teacher:
                 for i in tqdm(range(100)):
                     time.sleep(0.001)
 
-                print("Prof." + self.name + " propose suggestions for improvement.")
+                print("Prof." + self.name + " proposes suggestions for improvement.")
                 time.sleep(1)
                 self.nlp_students[name].increase_knowledge_by_reporting()
                 print('\n')
@@ -142,6 +142,7 @@ class Teacher:
         print("Prof." + self.name + ":" +"那我们感谢今天分享的三位同学，有感兴趣的同学会后可以深入交流")
         time.sleep(2)
         print("Prof." + self.name + ":" + "时候也不早了，那我们进入第二个环节吧！")
+        print("\n")
         time.sleep(3)
         for i, name in enumerate(names):
             if len(name) == 3:
@@ -181,6 +182,7 @@ class Teacher:
         print("Prof." + self.name + "那我们感谢今天分享的三位同学，有感兴趣的同学会后可以深入探讨")
         time.sleep(2)
         print("Prof." + self.name + ":" + "时候也不早了，那我们进入第二个环节吧！")
+        print("\n")
         time.sleep(3)
         for i, name in enumerate(names):
             if len(name) == 3:
