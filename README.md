@@ -19,7 +19,7 @@ To run Happy Teachers’ Day to Prof. Yang (2021), please do the following:
 
 > conda install tqdm
 
-* Download the file [train.py](https://cloud.tsinghua.edu.cn/f/90f894cd8f184c099a98/?dl=1), and run it
+* Download the file [train.py and models](https://cloud.tsinghua.edu.cn/f/3e737523ac5c4880ab16/?dl=1), and run it
 
 > python train.py
 
